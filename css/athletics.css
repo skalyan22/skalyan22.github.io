@@ -1,0 +1,135 @@
+.intropics img
+{
+  width: 20vw;
+  height: 20vw;
+}
+
+.intro p
+{
+  font-size: 1.5vw;
+  font-family: Corben;
+}
+
+.intro h1
+{
+  font-family: Cutive;
+}
+
+
+@media only screen and (max-device-width: 750px)
+{
+  #playingsoccer1
+  {
+    display: none;
+  }
+  #playingsoccer2
+  {
+    width: 32vw;
+    height: 32vw;
+  }
+
+  #relayteam
+  {
+    width: 32vw;
+    height: 32vw;
+  }
+
+  .intro p
+  {
+    font-size: 4vw;
+  }
+}
+
+
+@media only screen and (min-device-width: 751px)
+{
+  #playingsoccer2
+  {
+    display: none;
+  }
+}
+
+
+@media only screen and (max-device-width: 770px)
+{
+  .widerresponse
+  {
+    display: none;
+  }
+  #hawks2
+  {
+    width: 30vw;
+    height: 30vw;
+  }
+
+  #team2
+  {
+    width: 35vw;
+    height: 30vw;
+  }
+}
+
+
+@media only screen and (min-device-width: 771px)
+{
+  .shorterresponse
+  {
+    display: none;
+  }
+
+  #hawks
+  {
+    width: 10vw;
+    height: 10vw;
+  }
+
+  #team
+  {
+    width: 13vw;
+    height: 9vw;
+  }
+}
+
+#athens
+{
+  width: 10vw;
+  height: 10vw;
+}
+
+#athletic-net
+{
+  background-color: #00c8cf;
+  border-color: #00c8cf;
+}
+
+
+h4
+{
+  font-family: "Star Wars";
+  font-size: 25px;
+}
+
+table, th, td
+{
+  border: 1px solid black;
+  text-align: center;
+  padding: 4px;
+  
+}
+
+tr
+{
+  background-color: black;
+  color: white;
+}
+
+td
+{
+  background-color: gray;
+}
+
+.card-group h3
+{
+  font-family: monospace;
+  font-size: 1.5vw;
+}

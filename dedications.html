@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="us">
+<head>
+
+  <!-- bootstrap icons -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+
+  <!--links for bootstrap access to javascript functions-->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+  <!--JQuery extension link-->
+  <script src = "jquery/jquery-3.5.0.min.js"></script>
+  <script src = "jquery/jquery-3.5.0.js"></script>
+
+  <!-- link to css file -->
+  <link rel = "stylesheet" type = "text/css" href = "css/main.css">
+
+  <!-- signature used as favicon -->
+  <link rel="shortcut icon" type="image/jpg" href = "pictures/initialsignature.jpg">
+
+  <!-- standard meta tags -->
+  <meta charset = "utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <meta name="author" content="Shreya Kalyan">
+  <meta name="keywords" content="HTML, CSS, JavaScript, Bootstrap, High School, Online Portfolio">
+  <meta name="robots" content="index">
+
+  <!--website title-->
+  <title>Shreya's Website</title>
+</head>
+
+<body>
+
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="index.html">Home</a>
+    <a href="academics.html">Academics</a>
+    <a href="athletics.html">Athletics</a>
+    <a href="contact.html">Contact Me</a>
+    <!--<a href="dedications.html">Bonus: Dedications</a>-->
+  </div>
+
+  <div id="main">
+    <div class = "row jumbotron">
+      <div class = "col-md-5">
+        <span class="opennav" onclick="openNav()">&#9776;</span>
+      </div>
+
+      <div class="col-md-5">
+        <h1>Contact Me!</h1>
+      </div>
+
+      <div class = "col-md-2">
+        <a href = "index.html"><img src="pictures/initialsignature.jpg"></a>
+      </div>
+
+    </div>
+
+  </div>
+
+    <!--footer including signature, icons, and form for quick message-->
+    <footer class="footer mt-auto py-3">
+      <div class="container">
+        <br>
+        <!--row for links-->
+        <div class = "row">
+          <div class = "col-md-3">
+            <a href = "index.html"><button type="button" class="btn btn-outline-light btn-lg">Home</button></a>
+          </div>
+          <div class = "col-md-3">
+            <a href = "academics.html"><button type="button" class="btn btn-outline-light btn-lg">Academics</button></a>
+          </div>
+          <div class = "col-md-3">
+            <a href = "athletics.html"><button type="button" class="btn btn-outline-light btn-lg">Athletics</button></a>
+          </div>
+          <div class = "col-md-3">
+            <a href = "contact.html"><button type="button" class="btn btn-outline-light btn-lg">Contact Me</button></a>
+          </div>
+        </div>
+
+        <br>
+
+        <!--signature-->
+        <span class="text-muted"><img id = "signature" src = "pictures/signature2.jpg"></img></span>
+
+        <br>
+
+        <!--social media profiles-->
+        <div class = "row clearfix">
+          <div class = "col-md-3">
+            <h3>Follow me on: </h3>
+          </div>
+          <div class = "col-md-3">
+            <a href="https://www.instagram.com/shreya.kalyan/?hl=en" target = "__blank__"><img src = "pictures/instaicon.png"></a>
+          </div>
+          <div class = "col-md-3">
+            <a href="https://www.facebook.com/shreya.kalyan147" target="__blank__"><img src = "pictures/fbicon.jpg"></a>
+          </div>
+          <div class = "col-md-3">
+            <a href = "https://twitter.com/ShreyaKalyan14" target="__blank__"><img src = "pictures/twittericon.png"></a>
+          </div>
+        </div>
+
+      </div>
+    </footer>
+
+  </div>
+
+
+
+    <script>
+    //JavaScript code for opening navigation bar
+      function openNav() {
+        $("#mySidenav").css("width", "250px");
+        $("#main").css("marginLeft", "250px");
+        document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+      }
+
+    //JavaScript code for closing navigation bar
+      function closeNav() {
+        $("#mySidenav").css("width", "0px");
+        $("#main").css("marginLeft", "0px");
+        document.body.style.backgroundColor = "white";
+      }
+
+    </script>
+
+  </body>
+
+</html>

@@ -1,0 +1,34 @@
+#intro
+{
+  font-family: "Gugi";
+}
+
+.smicons img
+{
+  width: 5vw;
+  height: 5vw;
+}
+
+.gmail img
+{
+  width: 15vw;
+  height: 15vw;
+}
+
+@media only screen and (max-device-width: 750px)
+{
+  .smicons img
+  {
+    display: none;
+  }
+
+}
+
+@media only screen and (min-device-width: 752px)
+{
+  .footer .btn
+  {
+    display: block;
+    font-size: 2vw;
+  }
+}

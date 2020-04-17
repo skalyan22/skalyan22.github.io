@@ -1,0 +1,123 @@
+.introduction h1
+{
+  font-family: "Croissant One";
+}
+
+.introduction h5
+{
+  font-family: Fenix;
+}
+
+.topics h2
+{
+  font-family: "Graduate";
+}
+.future h5
+{
+  font-family: "Gothic A1";
+}
+
+
+#python
+{
+  width: 22vw;
+  height: 8vw;
+}
+
+#java
+{
+  width: 22vw;
+  height: 14vw;
+}
+
+#c
+{
+  width: 7vw;
+  height: 7vw;
+}
+
+ul
+{
+  list-style-type: none;
+}
+
+#summa
+{
+  width: 20vw;
+  height: 8vw;
+}
+
+@media only screen and (max-device-width: 800px)
+{
+  #python
+  {
+    width: 70vw;
+    height: 30vw;
+  }
+
+  #java
+  {
+    width: 50vw;
+    height: 34vw;
+  }
+
+  #c
+  {
+    width: 21vw;
+    height: 21vw;
+  }
+
+  #summa
+  {
+    width: 50vw;
+    height: 25vw;
+  }
+
+  #ncwit
+  {
+    width: 60vw;
+    height: 40vw;
+  }
+
+}
+
+@media only screen and (min-device-width: 750px) and (max-device-width: 1024px)
+{
+  #python
+  {
+    width: 40vw;
+    height: 20vw;
+  }
+
+  #java
+  {
+    width: 40vw;
+    height: 24vw;
+  }
+
+  #c
+  {
+    width: 10vw;
+    height: 10vw;
+  }
+
+  #summa
+  {
+    width: 20vw;
+    height: 12vw;
+  }
+
+  #ncwit
+  {
+    width: 25vw;
+    height: 17vw;
+  }
+}
+
+@media only screen and (max-device-width: 420px)
+{
+  #academic-resume
+  {
+    font-size: 5vw;
+  }
+}

@@ -1,0 +1,299 @@
+.jumbotron
+{
+  font-family: "Palatino Linotype";
+}
+
+.jumbotron img
+{
+  width:35%;
+  height: 65%;
+  border-radius:35%
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #4287f5;
+  display: block;
+  transition: 0.3s;
+  font-family: Times;
+}
+
+.sidenav a:hover {
+  color: black;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.opennav
+{
+  font-size: 30px;
+  cursor: pointer;
+}
+
+
+a:link
+{
+  text-decoration: none;
+}
+
+#collage img
+{
+  width: 38vw;
+  height: 30vw;
+  position: relative;
+  border: 8px double #5faafa;
+  border-radius: 4px;
+}
+
+@media only screen and (max-device-width: 415px)
+{
+  #collage img
+  {
+    width: 80vw;
+    height: 62vw;
+  }
+}
+
+@media only screen and (min-device-width: 550px) and (max-device-width: 1370px)
+{
+  #collage img
+  {
+    width: 45vw;
+    height: 32vw;
+  }
+}
+
+
+#nasa-intern
+{
+  background-color: #ff9900;
+  border-color: #ff9900;
+  margin-bottom: 10px;
+  position: absolute;
+  text-align: center;
+  font-size: 0.9vw;
+}
+
+@media only screen and (min-device-width: 550px) and (max-device-width: 1370px)
+{
+  #nasa-intern
+  {
+    font-size: 0.8vw;
+  }
+}
+
+
+
+.card-footer
+{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+
+.btn-small
+{
+  width: 98%;
+  font-size: 1.2vw;
+  margin-left: 5px;
+  font-family: georgia;
+  background-color: white;
+}
+
+@media only screen and (max-device-width: 415px)
+{
+  .btn-small
+  {
+    font-size: 6vw;
+
+  }
+}
+
+@media only screen and (min-device-width: 550px) and (max-device-width: 1370px)
+{
+  .btn-small
+  {
+    font-size: 1.5vw;
+  }
+}
+
+.dropdown-menu
+{
+  background-color: white;
+  width: 100%;
+  border-color: white;
+}
+
+.dropdown img
+{
+  width: 8%;
+  height: 8%;
+  color:white;
+}
+
+
+@media only screen and (max-device-width: 412px)
+{
+    .bottom-quote
+    {
+        width: 100%;
+        height: 32%;
+    }
+
+}
+
+@media only screen and (min-device-width: 550px) and (max-device-width: 1370px)
+{
+    .bottom-quote
+    {
+        width: 100%;
+        height: 32%;
+    }
+}
+
+
+
+#quote-header
+{
+  font-family: Amarante;
+  font-size: 2.2vw;
+}
+
+.stress
+{
+  text-align: center;
+  border-left: 5px double #4ae0ca;
+  border-right: 5px double #4ae0ca;
+  font-family: Akronim;
+  font-size: 2vw;
+}
+
+.footer
+{
+  position: static;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #d9dade;
+}
+
+#signature
+{
+  width: 40vw;
+  height: 6vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media only screen and (max-device-width: 412px)
+{
+  #signature
+  {
+    width: 70vw;
+    height: 15vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+
+.btn-outline-light
+{
+  border-color: black;
+  color: black;
+  background-color: #f7f7f7;
+  font-family: baskervville;
+}
+
+.footer img
+{
+  width: 50px;
+  height: 40px;
+}
+
+
+@media only screen and (max-device-width: 1020px)
+{
+  .icons img, h3
+  {
+    display: none;
+  }
+
+  .footer img
+  {
+    display: none;
+  }
+
+  .footer .btn
+  {
+    display: none;
+  }
+
+  .bottom-quote
+  {
+    display: none;
+  }
+
+}
+
+
+.nasaenter
+{
+  border-color: black;
+  background-color: black;
+}
+
+.nasaleave
+{
+  border-color: #ff9900;
+  background-color: #ff9900;
+}
+
+.extrabuttonenter
+{
+  color: black;
+  background-color: white;
+  border-color: black;
+}
+
+.extrabuttonleave
+{
+  color: white;
+  background-color: #007bff;
+  border-color: #007bff;
+}

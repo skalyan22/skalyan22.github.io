@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="us">
+  <head>
+
+  <!-- bootstrap icons -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+
+  <!--links for bootstrap access to javascript functions-->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+  <!--JQuery extension link-->
+  <script src = "jquery/jquery-3.5.0.min.js"></script>
+  <script src = "jquery/jquery-3.5.0.js"></script>
+
+  <!-- link to css file -->
+  <link rel = "stylesheet" type = "text/css" href = "css/main.css">
+
+  <!-- signature used as favicon -->
+  <link rel="shortcut icon" type="image/jpg" href = "pictures/initialsignature.jpg">
+
+  <!-- standard meta tags -->
+  <meta charset = "utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <meta name="author" content="Shreya Kalyan">
+  <meta name="keywords" content="HTML, CSS, JavaScript, Bootstrap, High School, Online Portfolio">
+  <meta name="robots" content="index">
+
+  <!--website title-->
+  <title>Shreya's Website</title>
+
+<style>
+.nasaenter
+{
+  border-color: black;
+  background-color: black;
+}
+
+.nasaleave
+{
+  border-color: #ff9900;
+  background-color: #ff9900;
+}
+</style>
+</head>
+
+<body>
+
+  <!--navigation bar-->
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="index.html">Home</a>
+    <a href="academics.html">Academics</a>
+    <a href="athletics.html">Athletics</a>
+    <a href="contact.html">Contact Me</a>
+    <!--<a href="dedications.html">Bonus: Dedications</a>-->
+  </div>
+
+  <!--id to include all the content on webpage for navigation bar -->
+  <div id="main">
+
+    <!-- jumbotron used for header -->
+    <div class = "row jumbotron">
+
+      <!--navigation icon and bar -->
+      <div class = "col-md-2">
+        <span class="opennav" onclick="openNav()">&#9776;</span>
+      </div>
+
+      <!--picture of me-->
+      <div class = "col-md-3">
+        <img src = "pictures/shreya.jpg">
+      </div>
+
+      <!--heading content-->
+      <div class="col-md-4">
+        <h1>Shreya Kalyan</h1>
+        <p>Welcome to my Online Portfolio!</p>
+      </div>
+
+      <!--initial signature icon included in header-->
+      <div class = "col-md-3">
+        <a href = "index.html"><img src="pictures/initialsignature.jpg"></a>
+      </div>
+
+    </div>
+
+    <hr>
+
+    <!--Container fluid to encase entire width for initial bio and collage-->
+    <div class="container-fluid">
+      <div class = "row">
+        <div class="col-md-6" id="collage"><img id = "collage" src = "pictures/collage2.png"></div>
+        <div class="col-md-6" id = "bio">Welcome to my website. My name is Shreya Kalyan and I am currently a High Schooler attending Athens High School in Troy, Michigan. I play club soccer year-round and run track for our high school in the spring. Aside from playing sports, taking challenging classes, and having a good high school experience, I also have a passion for Computer Science. My goal is to graduate college with a Bachelor's Degree in Computer Science. I enjoy learning how to code so much, that I designed this website myself using HTML, CSS, and the JavaScript library jQuery. Keep scrolling, some fun awaits.
+
+        <br><br><br>
+        <h3>My Mission Statement: </h3>
+        <!--container to encase partial width for resume intro-->
+        <h5>I am a diligent high school student with a proven knowledge of programming. I am aiming to leverage my abilities to successfully graduate college and acquire a job in the Computer Science field. I am frequently praised as hard-working by my peers in both academics and sports. Aside from challenging myself at the academic level, it's always good to sit back, relax, and enjoy life. Take one step at a time.</h5>
+        </div>
+
+      </div>
+    </div>
+        <br><br>&nbsp;
+
+
+
+  <!--dreams and aspirations board-->
+  <div class = "dreams container">
+    <!--intro, quote, description-->
+    <h4>My Dreams/Ambitions/Goals</h4>
+    <p>Here are some of the things I want to accomplish within the next few years. Even if these goals seem to be a little far-fetched and may not happen, I always have something to aim for.</p>
+    <blockquote class = "blockquote">
+      <p class = "mb-0">Shoot for the moon. Even if you miss, you'll land among the stars.</p>
+      <footer class="blockquote-footer">Norman Vincent Peale</footer>
+    </blockquote>
+  </div>
+
+  <br><br>
+
+  <!--container fluid for dreams/aspirations board and links to other pages-->
+  <div class = "container-fluid">
+
+    <div class = "row">
+      <div class = "col-md-7">
+        <!--Creating card group-->
+        <div class="card-group">
+
+          <!--Card 1: graduating dreams-->
+          <div class="card">
+            <img src="pictures/graduation.jfif" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-header">Graduating</h5>
+              <p class="card-text">As stated before, one of my goals is to graduate college with a Bachelor's degree in Computer Science.</p>
+              <br><br>
+              <div class = "card-footer text-muted">
+                Time Frame: 6 years
+              </div>
+            </div>
+          </div>
+
+          <!--Card 2: studying abroad dreams-->
+          <div class="card">
+            <img src="pictures/study-abroad.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-header">Studying Abroad</h5>
+              <p class="card-text">During my time in college, I want to spend at least one semester participating in a study abroad program. I want to experience the culture, society, and education of different countries at least once in my life.</p>
+              <br><br>
+              <div class = "card-footer text-muted">
+                Time Frame: 6 years
+              </div>
+            </div>
+          </div>
+
+          <!--Card 3: Interning at NASA dreams-->
+          <div class="card">
+            <img src="pictures/nasa.png" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-header">Interning at NASA</h5>
+              <p class="card-text">During my time in High School, and maybe even in college, I want to intern at NASA. NASA provides so many opportunities for students to intern in various subjects and will be an amazing learning opportunity.</p>
+              <a href="https://intern.nasa.gov/" target = "__blank__"> <button type = "button" class="btn btn-primary" id="nasa-intern">Click here if you're interested</button></a>
+              <br><br><br><br>
+              <div class = "card-footer text-muted">
+                Time Frame: 6 years
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+  <!--learn more link to other pages-->
+      <div class = "col-md-5">
+        <br><br><br><br>
+        <div class = "dropdown">
+          <button type="button" class="btn btn-primary btn-lg btn-block aboutme"  data-toggle = "dropdown" id = "learnbtn">Learn more about me!<img src = "pictures/dropdownarrow.png"></button>
+
+          <div class = "dropdown-menu">
+            <a href = "academics.html"><button type="button" class="btn btn-outline-info btn-small">Academics</button></a>
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            <a href="athletics.html"><button type="button" class="btn btn-outline-success btn-small">Athletics</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<br>
+
+    <!--second row of goals-->
+    <div class = "row">
+      <!--Contact me button-->
+      <div class = "col-md-5">
+        <br><br><br><br><br><br>
+        <a href="contact.html"><button type="button" class="btn btn-primary btn-lg btn-block" id="contactbtn">Contact me!</button></a>
+        <br><br><br>
+      </div>
+
+
+      <!--Second row of cards to fit the rest-->
+      <div class = "col-md-7">
+        <div class = "card-group">
+
+          <!--Card 4: Working at one of the biggest IT companies in the world-->
+          <div class="card">
+            <img src="pictures/itcompanies.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-header">Work</h5>
+              <p class="card-text">This is a goal that I would like to accomplish within the decade. After college, I want to aim to work at one of the biggest IT companies in the world. Whether it's Apple, Microsoft, or Google, I want to aim big.</p>
+              <br><br>
+              <div class = "card-footer text-muted">
+                Time Frame: 10 years
+              </div>
+            </div>
+          </div>
+
+          <!--Card 5: Volunteer Work dreams-->
+          <div class="card">
+            <img src="pictures/volunteer.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-header">Volunteering</h5>
+              <p class="card-text">Personal goals are always something to strive for, but I also want a community goal. For the rest of my life, I always want to spend time volunteering for teh community. Whether it's a project to build houses or help with humanitarian relief, or helping out at the local food bank, I will give back to the community.</p>
+              <br><br>
+              <div class = "card-footer text-muted">
+                Time Frame: Lifetime
+              </div>
+            </div>
+          </div>
+
+          <!--Card 6: Playing Soccer and/or Track at the collegiate level-->
+          <div class="card">
+            <img src="pictures/soccerandtrack.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-header">College Athletics</h5>
+              <p class="card-text">One of the largest goals I have is to play soccer and/or run track at the collegiate level. For the rest of high school I am aiming to accomplish that goal.</p>
+              <br><br>
+              <div class = "card-footer text-muted">
+                Time Frame: 2-6 years
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+  </div>
+
+  <!--container for partial width for quote-->
+    <br><br><br>
+  <div class = "container bottom-quote">
+
+    <div class="card">
+        <div class="card-header">
+          <h4 id="quote-header">Here's a quote to remember and one that I remind myself of daily:</h4>
+        </div>
+      <div class="card-body">
+        <blockquote class="blockquote stress">
+          <p class = "mb-0">Don't stress, Do your best, Forget the rest</p>
+          <footer class="blockquote-footer">Carrie Smith</footer>
+        </blockquote>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+  <!--footer including signature, icons, and form for quick message-->
+  <footer class="footer mt-auto py-3">
+    <div class="container fluid">
+      <br>
+      <!--row for links-->
+      <div class = "row">
+        <div class = "col-md-3">
+          <a href = "index.html"><button type="button" class="btn btn-outline-light btn-lg">Home</button></a>
+        </div>
+        <div class = "col-md-3">
+          <a href = "academics.html"><button type="button" class="btn btn-outline-light btn-lg">Academics</button></a>
+        </div>
+        <div class = "col-md-3">
+          <a href = "athletics.html"><button type="button" class="btn btn-outline-light btn-lg">Athletics</button></a>
+        </div>
+        <div class = "col-md-3">
+          <a href = "contact.html"><button type="button" class="btn btn-outline-light btn-lg">Contact Me</button></a>
+        </div>
+      </div>
+
+      <br>
+
+      <!--signature-->
+      <span class="text-muted"><img id = "signature" src = "pictures/signature2.jpg"></img></span>
+
+      <br>
+
+      <!--social media profiles-->
+      <div class = "row icons">
+        <div class = "col-md-3">
+          <h3>Follow me on: </h3>
+        </div>
+        <div class = "col-md-3">
+          <a href="https://www.instagram.com/shreya.kalyan/?hl=en" target = "__blank__"><img src = "pictures/instaicon.png"></a>
+        </div>
+        <div class = "col-md-3">
+          <a href="https://www.facebook.com/shreya.kalyan147" target="__blank__"><img src = "pictures/fbicon.jpg"></a>
+        </div>
+        <div class = "col-md-3">
+          <a href = "https://twitter.com/ShreyaKalyan14" target="__blank__"><img src = "pictures/twittericon.png"></a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <script>
+
+  //JavaScript code for opening navigation bar
+    function openNav() {
+      $("#mySidenav").css("width", "250px");
+      $("#main").css("marginLeft", "250px");
+      document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+    }
+
+  //JavaScript code for closing navigation bar
+    function closeNav() {
+      $("#mySidenav").css("width", "0px");
+      $("#main").css("marginLeft", "0px");
+      document.body.style.backgroundColor = "white";
+    }
+
+    //nasa internship btn
+    $("#nasa-intern").mouseenter(function()
+        {
+          $("#nasa-intern").css("border-color", "black");
+          $("#nasa-intern").css("background-color", "black");
+        });
+
+    $("#nasa-intern").mouseleave(function()
+      {
+        $("#nasa-intern").css("border-color", "#ff9900");
+        $("#nasa-intern").css("background-color", "#ff9900");
+      });
+
+    //learn more button
+    $("#learnbtn").mouseenter(function()
+    {
+      $("#learnbtn").css("color", "black");
+      $("#learnbtn").css("background-color", "white");
+      $("#learnbtn").css("border-color", "black");
+    })
+
+    $("#learnbtn").mouseleave(function()
+    {
+      $("#learnbtn").css("color", "white");
+      $("#learnbtn").css("background-color", "#007bff");
+      $("#learnbtn").css("border-color", "#007bff");
+    })
+
+    //contact me button
+    $("#contactbtn").mouseenter(function()
+    {
+      $("#contactbtn").css("color", "black");
+      $("#contactbtn").css("background-color", "white");
+      $("#contactbtn").css("border-color", "black");
+    })
+
+    $("#contactbtn").mouseleave(function()
+    {
+      $("#contactbtn").css("color", "white");
+      $("#contactbtn").css("background-color", "#007bff");
+      $("#contactbtn").css("border-color", "#007bff");
+    })
+
+  </script>
+
+</body>
+
+</html>
